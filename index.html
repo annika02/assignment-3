@@ -174,7 +174,7 @@
                             <img
                               src="./assets/residential.png"
                               alt="Design example" />
-                          </figure class="w-4/12 h-full p-1 flex justify-center ">
+                          </figure class="w-4/12 h-full p-1 ">
                           <div class="card-body">
                             <h2 class="card-title">Residential</h2>
                             <p class="text-font">The barn house captivates with its blend of rustic charm and modern.</p>
@@ -358,27 +358,27 @@
       </section>
       
     </main>
-    <footer class="bg-[#1C1C1C]">
-      <!-- text &logo -->
+    <footer class="bg-[#1C1C1C] p-6">
+      <!-- text & logo -->
       <div class="text">
         <!-- button -->
         <div class="flex justify-center">
-          <div class="navbar-start flex justify-center">
+          <div class="navbar-start flex justify-center items-center">
             <div class="bg-primary px-3 py-3 rounded-full flex items-center">
-              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+              <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
             </div>
             <a class="text-xl font-bold p-2 text-white">Rinterio</a>
           </div>
         </div>
         <!-- text part -->
-        <div class="mt-2 flex flex-col items-center text-center">
-          <p class="w-3/6 mx-auto text-font ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <div class="mt-4 flex flex-col items-center text-center">
+          <p class="w-3/6 mx-auto text-font text-white">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
       </div>
       <!-- middle -->
-      <div class="footer footer-center bg-base-200 text-base-content rounded p-10 bg-[#1C1C1C]">
+      <div class="footer footer-center text-base-content rounded p-10">
         <nav class="grid grid-flow-col gap-4">
-          <ul class="menu menu-horizontal px-1 text-white">
+          <ul class="menu px-1 text-white flex flex-col md:flex-row">
             <li class="hover:underline"><a>Home</a></li>
             <li class="hover:underline"><a>Services</a></li>
             <li class="hover:underline"><a>Portfolio</a></li>
@@ -386,16 +386,15 @@
             <li class="hover:underline"><a>Contact Us</a></li>
           </ul>
         </nav>
-        <!-- end -->
-        <aside>
-          <button class="btn bg-primary rounded-round  md:flex"
-              >Book Consult
-              <span
-                class="fa-solid fa-arrow-right -rotate-45 px-2 py-2 bg-black rounded-full text-white"
-              ></span
-            ></button>
-        </aside>
       </div>
+      <!-- end -->
+      <aside class="flex justify-center mt-4">
+        <button class="btn bg-primary text-white rounded-full flex items-center px-4 py-2">
+          Book Consult
+          <span class="fa-solid fa-arrow-right -rotate-45 px-2 py-2 bg-black rounded-full text-white ml-2"></span>
+        </button>
+      </aside>
     </footer>
+    
   </body>
 </html>
